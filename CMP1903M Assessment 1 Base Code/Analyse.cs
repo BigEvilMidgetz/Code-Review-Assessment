@@ -67,7 +67,6 @@ namespace CMP1903M_Assessment_1_Base_Code
                         sb.Append(c);
                 }
                 string word2 = sb.ToString();
-                System.Console.WriteLine(word2);
                 if(word2.Length > 7) 
                 //If the word is larger than 7 characters it gets added to a list
                 {

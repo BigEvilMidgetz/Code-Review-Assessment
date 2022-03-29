@@ -1,1 +1,36 @@
 Object Oriented programming is a programming paradigm that relies on the concept of classes and objects.  A class is an abstract blueprint used to create more specific, concrete objects. Classes often represent broad categories, like Car or Dog that share attributes. These classes define what attributes an instance of this type will have, like colour, but not the value of those attributes for a specific object. Classes can also contain functions, called methods available only to objects of that type. These functions are defined within the class and perform some action helpful to that specific type of object.*
+
+
+Test Results:
+There are 6 sentences
+There are 189 vowels
+There are 317 consonants
+There are 9 upper case letters
+There are 497 lower case letters
+There are 506 characters
+There are 44 A's
+There are 14 B's
+There are 34 C's
+There are 12 D's
+There are 62 E's
+There are 16 F's
+There are 7 G's
+There are 17 H's
+There are 32 I's
+There are 6 J's
+There are 2 K's
+There are 22 L's
+There are 9 M's
+There are 28 N's
+There are 40 O's
+There are 14 P's
+There are 0 Q's
+There are 27 R's
+There are 43 S's
+There are 56 T's
+There are 11 U's
+There are 3 V's
+There are 3 W's
+There are 0 X's
+There are 4 Y's
+There are 0 Z's
