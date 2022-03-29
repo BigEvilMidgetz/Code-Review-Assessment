@@ -16,18 +16,39 @@ namespace CMP1903M_Assessment_1_Base_Code
         //Returns: string
         //Gets text input from the keyboard
         public string manualTextInput()
-        {
-
+        {   
+            System.Console.WriteLine("Enter the text to be analysed, then end the text with an \'*\'");
+            while(true)
+            {
+                text += Console.ReadLine();
+                if (text.Contains("*")) break;
+                else text += " ";
+            }
             return text;
+
         }
 
         //Method: fileTextInput
         //Arguments: string (the file path)
         //Returns: string
         //Gets text input from a .txt file
-        public string fileTextInput(string fileName)
+        public string fileTextInput()
         {
-
+            bool check = true;
+            while (check is true)
+            {
+                try
+                {
+                    string fileName = Console.ReadLine();
+                    text = File.ReadAllText(fileName);
+                    //return text;
+                    check = false;
+                }
+                catch (FileNotFoundException) //Catches if the file doesn't exist
+                {
+                    System.Console.WriteLine("File Doesn't exist. Try again: ");
+                }
+            }
             return text;
         }
 
